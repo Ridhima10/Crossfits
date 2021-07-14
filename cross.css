@@ -1,0 +1,114 @@
+body{
+    font-family:sans-serif;
+    letter-spacing: 2px;
+}
+.nav-link:hover,.btn-2:hover,.card-arrow{
+    color: black !important;
+}
+hr,.btn:hover,.btn-2:hover,.btn{
+    background-color: #e97d20 !important;
+}
+.dropdown-item:hover,.new-btn,.btn-2{
+    color: #e97d20 !important;
+}
+.dropdown-menu,.dropdown-item:hover,.si:hover{
+    background-color: #0c0d0e !important;
+}
+footer{
+    background-color: #211f1f !important; 
+}
+/* Navigation menu */
+.name{
+    color: #625656;
+    font-family: ui-serif;
+}
+/* Carousel */
+.bg{
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.bg>.container{
+    transform: translate(-50%,-50%);
+}
+.side-icon{
+    margin: 0rem 1rem;
+}
+.container>h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    min-width: 5rem;
+}
+/* Section 1 */
+hr{
+    width: 3rem;
+    opacity: 7;
+    padding: 1.3px;
+}
+.btn{
+    font-size: 0.77rem;
+    letter-spacing: unset;
+    cursor: pointer;
+}
+.btn:hover,.btn-2:hover{
+    box-shadow: 1px 3px 20px 1px grey;
+}
+/* Section 2 */
+.btn-2{
+    border: 1px solid #e97d20;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: unset;
+    cursor: pointer;
+}
+/* section 3 */
+.trainer{
+    background: linear-gradient( 
+        rgba(131, 128, 128, 0.78),
+        rgba(153, 150, 150, 0.78)
+    ),url(crossfit\ img/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    opacity: 0.99;
+}
+.t1{
+    min-width: 13%;
+    max-height: 154px;
+}
+.content{
+    width: 64%;
+}
+/* Section 4 */
+.icon{
+    height: 3rem;
+}
+.card-text{
+    width: 83%;
+}
+.new-btn:hover{
+    color:#9b6025 !important;
+}
+.box:hover{
+    transition: all 0.4s ease-in;
+    transform: translateY(-20px) !important;
+}
+/* section 5 */
+.t2{
+    height: 5rem;
+    width: unset;
+}
+/* footer */
+.foot>p:hover, .foot>i:hover, .foot>span:hover {
+    color: white;
+    cursor: pointer;
+}
+@media screen and (min-width:250px) and (max-width: 540px){
+    .container>h1{
+        font-size: 2.6rem;
+    }
+    .content {
+        width: 100%;
+    }
+}
